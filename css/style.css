@@ -1,0 +1,123 @@
+.headSection{
+  background-color:gray;
+}
+.secondaryGlobalNav{
+  display: flex;
+  justify-content: space-between;
+  width: 72%;
+  margin: auto;
+}
+.conceptText{
+  font-size:14px;
+}
+.secondaryGlobalNav ul{
+  display: flex;
+}
+
+.secondaryGlobalNav ul li{
+  list-style: none;
+  display: inline-block;
+  padding:0 10px;
+  font-size: 14px;
+}
+.middleSection{
+  display: flex;
+  justify-content: space-between;
+  width: 72%;
+  margin:0 auto;
+}
+.middleSection .Logo{
+  width:211px;
+  height:45px;
+}
+.contactInformation{
+  display: inline-block;
+  text-align: center;
+  font-size: 12px;
+}
+.telTime{
+  margin: 0;
+}
+
+#primaryGlobalNav{
+  display: flex;
+  justify-content: space-between;
+  width: 72%;
+  margin:10px auto 0;
+  align-items: center;
+}
+#primaryGlobalNav ul{
+  display:flex;
+  padding:0;
+}
+
+#primaryGlobalNav ul li{
+  list-style: none;
+  border-right: 1px solid #CCCCCC; 
+  text-align: center;
+  padding:0 30px;
+}
+#primaryGlobalNav ul li:first-child{
+  border-left: 1px solid #CCCCCC;
+}
+#primaryGlobalNav ul li a{
+  text-decoration:none;
+  color: black;
+}
+#primaryGlobalNav ul li a:hover{
+  color: blue;
+  text-decoration: underline;
+}
+#primaryGlobalNav .jpText{
+  margin:0;
+}
+#primaryGlobalNav .enText{
+  font-size: 12px;
+  margin: 0;
+}
+#primaryGlobalNav .linkText{
+  display: block;
+  width:170px;
+}
+
+#primaryGlobalNav .linkText a{
+  color:#010066;
+  text-decoration:none;
+  font-weight: bold;
+  border: 1px solid #010066;
+  background-color:white;
+  display: block;
+  text-align: center;
+  padding: 15px 0;
+  box-sizing: border-box;
+}
+
+.primaryGlobalNav-megaMenu{
+  width:72%;
+  margin:0 auto;
+  background-color: #181836;
+}
+.primaryGlobalNav-megaMenu ul{
+  display: flex;
+  flex-wrap: wrap;
+  padding:0;
+  margin-bottom:0;
+}
+.primaryGlobalNav-megaMenu ul li{
+  list-style: none;
+}
+.primaryGlobalNav-megaMenu ul p::after{
+  content:"＼";
+  display:inline;
+  color:white;
+  margin:10px;
+}
+.primaryGlobalNav-megaMenu ul a{
+  text-decoration: none;
+  color:white;
+  padding:10px 5px;
+}
+.primaryGlobalNav-megaMenu ul a:hover{
+  background-color: white;
+  color:#181836;
+}
